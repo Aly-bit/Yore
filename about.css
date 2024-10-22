@@ -1,0 +1,510 @@
+head, body, div, nav, section, input, main, span{
+    font-family: franklin gothic medium;
+    margin: 0;
+}
+body{
+    background-image: url(img/val.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+.img{
+    position: absolute;
+    margin: 0;
+    
+}
+#top{
+    position: fixed;
+    z-index: 3;
+    width: 1600px;
+    height: 100px;
+    top: 0px;
+    border: 4px solid #0e0f1b ;
+    
+}
+.homenav ul{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 24px;
+}
+ul a{
+    text-decoration: none;
+    padding: 0 10px;
+    z-index: 4;
+    color: rgb(181, 181, 192);
+}
+.home{
+    position: fixed;
+    left: 1200px;
+    top: 25px;
+    padding: 10px;
+}
+.about{
+    position: fixed;
+    top: 25px;
+    left: 1300px;
+    padding: 10px;
+    background-color: rgb(181, 181, 192);
+    border-radius: 10px;
+    color: #101722;
+}
+.contact{
+    position: fixed;
+    top: 35px;
+    left: 1400px;
+}
+#user{
+    position: fixed;
+    font-size: 24px;
+    z-index: 4;
+    border-radius: 25px;
+    color: rgb(181, 181, 192);
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    top: 35px;
+    left: 30px;
+}
+.text{
+    position: absolute;
+    z-index: 1;
+    width: 1350px;
+    height: 300px;
+    background-color: rgb(21, 23, 34);
+    border: 4px solid #0c0c0f;
+    box-shadow: 5px 5px 6px black;
+    top: 200px;
+    left: 100px;
+}
+h3{
+    margin: 10px;
+    color: white;
+}
+
+hr{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 1250px;
+}
+#about{
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(181, 181, 192);
+}
+
+/*responsive*/
+
+@media screen and (max-width: 1540px){
+    .home{
+        position: fixed;
+        left: 1100px;
+        top: 25px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 1200px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1300px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 1350px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .home{
+        position: fixed;
+        left: 1050px;
+        top: 25px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 1150px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1250px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 1350px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .home{
+        position: fixed;
+        left: 900px;
+        top: 25px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 1000px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1100px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 1150px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .home{
+        position: fixed;
+        left: 800px;
+        top: 25px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 900px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1000px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 1000px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .home{
+        position: fixed;
+        left: 700px;
+        top: 25px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 800px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 900px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 850px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home{
+        position: fixed;
+        left: 600px;
+        top: 25px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 700px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 850px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .home{
+        position: fixed;
+        left: 600px;
+        top: 25px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 700px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 700px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .home{
+        position: fixed;
+        left: 500px;
+        top: 25px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 600px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 700px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 700px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home{
+        position: fixed;
+        left: 400px;
+        top: 25px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 500px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 600px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 550px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        position: fixed;
+        left: 350px;
+        top: 25px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 450px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 550px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 550px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home{
+        position: fixed;
+        left: 300px;
+        top: 30px;
+        font-size: 20px;
+    }
+    .about{
+        position: fixed;
+        top: 25px;
+        left: 400px;
+        font-size: 20px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        color: #101722;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 500px;
+        font-size: 20px;
+    }
+    .text{
+        position: absolute;
+        z-index: 1;
+        width: 550px;
+        height: 300px;
+        background-color: rgb(21, 23, 34);
+        border: 4px solid #0c0c0f;
+        box-shadow: 5px 5px 6px black;
+        top: 200px;
+        left: 100px;
+    }
+    #about{
+        position: absolute;
+        top: 75px;
+    }
+}

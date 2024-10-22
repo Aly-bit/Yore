@@ -1,0 +1,688 @@
+head, body, div, nav, section, input, main, span{
+    font-family: franklin gothic medium;
+    margin: 0;
+}
+.img{
+    position: absolute;
+    margin: 0;
+}
+body{
+    background-image: url(img/bgbago.png);
+    background-size: cover;
+    background-position: center center;
+}
+#top{
+    position: fixed;
+    z-index: 3;
+    width: 1600px;
+    height: 100px;
+    top: 0px;
+    border: 4px solid #0e0f1b ;
+    
+}
+.homenav ul{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 24px;
+}
+ul a{
+    text-decoration: none;
+    padding: 0 10px;
+    z-index: 4;
+    color: rgb(181, 181, 192);
+}
+.home{
+    position: fixed;
+    left: 1200px;
+    top: 35px;
+}
+.about{
+    position: fixed;
+    top: 35px;
+    left: 1300px;
+}
+.contact{
+    position: fixed;
+    top: 35px;
+    left: 1400px;
+}
+#user{
+    position: fixed;
+    font-size: 24px;
+    z-index: 4;
+    border-radius: 25px;
+    color: rgb(181, 181, 192);
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    top: 35px;
+    left: 30px;
+}
+.background{
+    position: absolute;
+    z-index: 1;
+    width: 1500px;
+    height: 800px;
+    background-color: #10121d;
+    top: 150px;
+    left: 30px;
+    border: 7px solid #0f1014;
+    box-shadow: 5px 5px 6px black;
+}
+#agent{
+    position: absolute;
+    z-index: 2;
+    height: 800px;
+    top: -20px;
+    left: -150px;
+}
+.text{
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    height: 700px;
+    background-color: rgb(21, 23, 34);
+    border: 4px solid #0c0c0f;
+    box-shadow: 5px 5px 6px black;
+    top: 200px;
+    left: 650px;
+}
+h1, h3{
+    margin: 10px;
+    color: white;
+}
+h1{
+    font-size: 70px;
+    color: white;
+    
+}
+span{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    left: 10px;
+    padding: 20px;
+}
+h3{
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+#initiator{
+    width: 100px;
+    padding: 5px 5px;
+    background-color: black;
+}
+.role{
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    border: 1px solid hsl(0, 4%, 17%);
+    top: 575px;
+    left: 670px;
+    transition: 0.4s;
+    margin: 15px;
+    
+}
+.role .description{
+    color: black;
+    font-size: 20px;
+    padding: 0px;
+    background-color: rgb(181, 181, 192);
+    text-align: center;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 1540px){
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 1100px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 1200px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1300px;
+    }
+    .background{
+        width: 1400px;
+        height: 800px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: -150px;
+    }
+    .text{
+        width: 700px;
+        height: 700px;
+        top: 200px;
+        left: 650px;
+    }
+    .role{
+        top: 575px;
+        left: 670px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 1050px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 1150px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1250px;
+    }
+    .background{
+        width: 1350px;
+        height: 800px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: -150px;
+    }
+    .text{
+        width: 650px;
+        height: 700px;
+        top: 200px;
+        left: 650px;
+    }
+    .role{
+        top: 575px;
+        left: 670px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 900px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 1000px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1100px;
+    }
+    .background{
+        width: 1250px;
+        height: 800px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: -150px;
+    }
+    .text{
+        width: 600px;
+        height: 700px;
+        top: 200px;
+        left: 650px;
+    }
+    .role{
+        top: 575px;
+        left: 670px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 800px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 900px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1000px;
+    }
+    .background{
+        width: 1000px;
+        height: 800px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: -150px;
+    }
+    .text{
+        width: 450px;
+        height: 700px;
+        top: 200px;
+        left: 550px;
+    }
+    h3{
+        top: 390px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .role{
+        top: 600px;
+        left: 570px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 700px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 900px;
+    }
+    .background{
+        width: 1000px;
+        height: 1350px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: 25px;
+    }
+    .text{
+        width: 850px;
+        height: 525px;
+        top: 950px;
+        left: 100px;
+    }
+    h3{
+        top: 290px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .role{
+        top: 1250px;
+        left: 125px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 600px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 700px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+    .background{
+        width: 900px;
+        height: 1350px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: 0px;
+    }
+    .text{
+        width: 750px;
+        height: 525px;
+        top: 950px;
+        left: 100px;
+    }
+    h3{
+        top: 290px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .role{
+        top: 1250px;
+        left: 125px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 600px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 700px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+    .background{
+        width: 850px;
+        height: 1400px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: 0px;
+    }
+    .text{
+        width: 750px;
+        height: 550px;
+        top: 950px;
+        left: 100px;
+    }
+    h3{
+        top: 290px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .role{
+        top: 1250px;
+        left: 125px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 500px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 600px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 700px;
+    }
+    .background{
+        width: 800px;
+        height: 1400px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: -50px;
+    }
+    .text{
+        width: 675px;
+        height: 575px;
+        top: 950px;
+        left: 100px;
+    }
+    h3{
+        top: 290px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .role{
+        top: 1250px;
+        left: 125px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 400px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 500px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 600px;
+    }
+    .background{
+        width: 700px;
+        height: 1400px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: -100px;
+    }
+    .text{
+        width: 575px;
+        height: 575px;
+        top: 950px;
+        left: 100px;
+    }
+    h3{
+        top: 290px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .role{
+        top: 1250px;
+        left: 125px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 350px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 450px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 550px;
+    }
+    .background{
+        width: 650px;
+        height: 1450px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: -125px;
+    }
+    .text{
+        width: 525px;
+        height: 600px;
+        top: 950px;
+        left: 100px;
+    }
+    h3{
+        top: 350px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .role{
+        top: 1300px;
+        left: 125px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 300px;
+        top: 30px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .about{
+        position: fixed;
+        top: 40px;
+        left: 400px;
+        font-size: 20px;
+    }
+    .contact{
+        position: fixed;
+        top: 40px;
+        left: 500px;
+        font-size: 20px;
+    }
+    #user{
+        position: fixed;
+        font-size: 20px;
+        z-index: 4;
+        border-radius: 25px;
+        color: rgb(181, 181, 192);
+        width: 200px;
+        height: 35px;
+        text-align: center;
+        top: 35px;
+        left: 30px;
+    }
+    .background{
+        width: 600px;
+        height: 1450px;
+        top: 150px;
+        left: 30px;
+    }
+    #agent{
+        position: absolute;
+        z-index: 2;
+        height: 800px;
+        top: -20px;
+        left: -125px;
+    }
+    .text{
+        width: 500px;
+        height: 600px;
+        top: 950px;
+        left: 75px;
+    }
+    h3{
+        top: 350px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .role{
+        top: 1300px;
+        left: 100px;
+    }
+}

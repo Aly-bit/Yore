@@ -1,0 +1,349 @@
+head, body, div, nav, section, input{
+    font-family: franklin gothic medium;
+    margin: 0;
+}
+.img{
+    position: absolute;
+    margin: 0;
+    
+}
+body{
+    background-image: url(img/bgbago.png);
+    background-size: cover;
+    
+    background-position: center center;
+
+}
+#top{
+    position: fixed;
+    z-index: 3;
+    width: 1575px;
+    height: 100px;
+    top: 0px;
+    border: 4px solid #0e0f1b ;
+    
+}
+.homenav ul{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 24px;
+}
+ul a{
+    text-decoration: none;
+    padding: 0 10px;
+    z-index: 4;
+    color: rgb(181, 181, 192);
+
+}
+.home{
+    position: fixed;
+    left: 1200px;
+    top: 35px;
+}
+.about{
+    position: fixed;
+    top: 35px;
+    left: 1300px;
+}
+.contact{
+    position: fixed;
+    top: 35px;
+    left: 1400px;
+}
+#user{
+    position: fixed;
+    font-size: 24px;
+    z-index: 4;
+    border-radius: 25px;
+    color: rgb(130, 130, 136);
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    top: 35px;
+    left: 30px;
+}
+.gallery{
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    border: 1px solid hsl(0, 4%, 17%);
+    top: 125px;
+    left: 85px;
+    transition: 0.4s;
+    margin: 15px;
+}
+.gallery .description{
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(181, 181, 192);
+}
+
+
+
+/*----------*/
+.gallery:hover{
+    transform: scale(1.03);
+}
+a img:hover{
+    opacity: 0.6;
+}
+
+/*responsive------*/
+@media screen and (max-width: 1540px){
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 1100px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 1200px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1300px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 1050px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 1150px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1250px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 900px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 1000px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1100px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 800px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 900px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1000px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 700px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 900px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 600px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 700px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 600px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 700px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 500px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 600px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 700px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 400px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 500px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 350px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 450px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 550px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 300px;
+        top: 30px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .about{
+        position: fixed;
+        top: 40px;
+        left: 400px;
+        font-size: 20px;
+    }
+    .contact{
+        position: fixed;
+        top: 40px;
+        left: 500px;
+        font-size: 20px;
+    }
+    #user{
+        position: fixed;
+        font-size: 20px;
+        z-index: 4;
+        border-radius: 25px;
+        color: rgb(181, 181, 192);
+        width: 200px;
+        height: 35px;
+        text-align: center;
+        top: 35px;
+        left: 30px;
+    }
+}

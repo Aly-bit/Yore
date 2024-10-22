@@ -1,0 +1,267 @@
+head, body, div, nav, section, input{
+    font-family: franklin gothic medium;
+    margin: 0;
+}
+.img{
+    position: absolute;
+    margin: 0;
+    
+}
+body{
+    background-image: url(img/bgbago.png);
+    background-size: cover;
+    background-position: center center;
+
+}
+#top{
+    position: fixed;
+    z-index: 3;
+    width: 1600px;
+    height: 100px;
+    top: 0px;
+    border: 4px solid #0e0f1b ;
+    
+}
+.homenav ul{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 24px;
+}
+ul a{
+    text-decoration: none;
+    padding: 0 10px;
+    z-index: 4;
+    color: rgb(181, 181, 192);
+
+}
+.home{
+    position: fixed;
+    left: 1200px;
+    top: 35px;
+}
+.about{
+    position: fixed;
+    top: 35px;
+    left: 1300px;
+}
+.contact{
+    position: fixed;
+    top: 35px;
+    left: 1400px;
+}
+#user{
+    position: fixed;
+    font-size: 24px;
+    z-index: 4;
+    border-radius: 25px;
+    color: rgb(130, 130, 136);
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    top: 35px;
+    left: 30px;
+}
+.gallery{
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    border: 1px solid hsl(0, 4%, 17%);
+    top: 0px;
+    transition: 0.4s;
+    margin-left: 40px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.gallery .description{
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(181, 181, 192);
+    box-shadow: 3px 3px 5px black;
+}
+.primary{
+    position: absolute;
+    display: block;
+    z-index: 2;
+    border: 1px solid hsl(0, 4%, 17%);
+
+}
+button{
+    text-align: left;
+    font-size: 50px;
+    color: black;
+}
+.drop1 button{
+    position: absolute;
+    background-color: rgb(181, 181, 192); 
+    width: 650px;
+    height: 100px;
+    cursor: pointer;
+    top: 200px;
+    left: 100px;
+    display: block;
+}
+.drop1 .primary{
+    display: none;
+    cursor: pointer ;
+    background-color: rgb(135, 135, 139); 
+    box-shadow: 5px 5px 7px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 1372px;
+}
+.drop1:hover .primary{
+    display: block;
+}
+
+
+.smg{
+    position: absolute;
+    display: block;
+    z-index: 2;
+    border: 1px solid hsl(0, 4%, 17%);
+}
+.drop2 button{
+    position: absolute;
+    background-color: rgb(181, 181, 192); 
+    width: 650px;
+    height: 100px;
+    cursor: pointer;
+    top: 200px;
+    left: 825px;
+    display: block;
+}
+.drop2 .smg{
+    display: none;
+    cursor: pointer ;
+    background-color: rgb(135, 135, 139); 
+    box-shadow: 5px 5px 7px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 1372px;
+}
+.drop2:hover .smg{
+    display: block;
+}
+
+.shotgun{
+    position: absolute;
+    display: block;
+    z-index: 2;
+    border: 1px solid hsl(0, 4%, 17%);
+}
+.drop3 button{
+    position: absolute;
+    background-color: rgb(181, 181, 192); 
+    width: 650px;
+    height: 100px;
+    cursor: pointer;
+    top: 350px;
+    left: 100px;
+    display: block;
+}
+.drop3 .shotgun{
+    display: none;
+    cursor: pointer ;
+    background-color: rgb(135, 135, 139); 
+    box-shadow: 5px 5px 7px;
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    width: 1372px;
+}
+.drop3:hover .shotgun{
+    display: block;
+}
+
+.rifle{
+    position: absolute;
+    display: block;
+    z-index: 2;
+    border: 1px solid hsl(0, 4%, 17%);
+}
+.drop4 button{
+    position: absolute;
+    background-color: rgb(181, 181, 192); 
+    width: 650px;
+    height: 100px;
+    cursor: pointer;
+    top: 350px;
+    left: 825px;
+    display: block;
+}
+.drop4 .rifle{
+    display: none;
+    cursor: pointer ;
+    background-color: rgb(135, 135, 139); 
+    box-shadow: 5px 5px 7px;
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    width: 1372px;
+}
+.drop4:hover .rifle{
+    display: block;
+}
+
+.sniper{
+    position: absolute;
+    display: block;
+    z-index: 2;
+    border: 1px solid hsl(0, 4%, 17%);
+}
+.drop5 button{
+    position: absolute;
+    background-color: rgb(181, 181, 192); 
+    width: 650px;
+    height: 100px;
+    cursor: pointer;
+    top: 500px;
+    left: 100px;
+    display: block;
+}
+.drop5 .sniper{
+    display: none;
+    cursor: pointer ;
+    background-color: rgb(135, 135, 139); 
+    box-shadow: 5px 5px 7px;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    width: 1372px;
+}
+.drop5:hover .sniper{
+    display: block;
+}
+
+.heavies{
+    position: absolute;
+    display: block;
+    z-index: 2;
+    border: 1px solid hsl(0, 4%, 17%);
+}
+.drop6 button{
+    position: absolute;
+    background-color: rgb(181, 181, 192); 
+    width: 650px;
+    height: 100px;
+    cursor: pointer;
+    top: 500px;
+    left: 825px;
+    display: block;
+}
+.drop6 .heavies{
+    display: none;
+    cursor: pointer ;
+    background-color: rgb(135, 135, 139); 
+    box-shadow: 5px 5px 7px;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    width: 1372px;
+}
+.drop6:hover .heavies{
+    display: block;
+}

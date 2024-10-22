@@ -1,0 +1,610 @@
+head, body, div, nav, section, input, main, span{
+    font-family: franklin gothic medium;
+    margin: 0;
+}
+body{
+    background-image: url(img/val.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.img{
+    position: absolute;
+    margin: 0;
+    
+}
+#top{
+    position: fixed;
+    z-index: 3;
+    width: 1600px;
+    height: 100px;
+    top: 0px;
+    border: 4px solid #0e0f1b ;
+    
+}
+.homenav ul{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 24px;
+}
+ul a{
+    text-decoration: none;
+    padding: 0 10px;
+    z-index: 4;
+    color: rgb(181, 181, 192);
+}
+.home{
+    position: fixed;
+    color: #101722;
+    left: 1200px;
+    top: 25px;
+    padding: 10px;
+    background-color: rgb(181, 181, 192);
+    border-radius: 10px;
+}
+.about{
+    position: fixed;
+    top: 35px;
+    left: 1300px;
+}
+.contact{
+    position: fixed;
+    top: 35px;
+    left: 1400px;
+}
+#user{
+    position: fixed;
+    font-size: 24px;
+    z-index: 4;
+    border-radius: 25px;
+    color: rgb(181, 181, 192);
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    top: 35px;
+    left: 30px;
+}
+.selection{
+    transition: 1ms;
+}
+.agents{
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: 100px;
+    border: 2px solid #0e0f1b ;
+    box-shadow: 3px 3px 7px black;
+}
+.A{
+    position: absolute;
+    z-index: 2;
+    top: 190px;
+    left: 650px;
+    color: rgb(181, 181, 192);
+    font-size: 60px;
+}
+.gannn{
+    position: absolute;
+    z-index: 2;
+    top: 370px;
+    left: 400px;
+    border: 2px solid #0e0f1b ;
+    box-shadow: 3px 3px 7px black;
+}
+.G{
+    position: absolute;
+    z-index: 2;
+    top: 410px;
+    left: 880px;
+    color: rgb(181, 181, 192);
+    font-size: 60px;
+}
+
+/*pseudo----------------*/
+
+.age:hover{
+    position: absolute;
+    top: 2px;
+    
+}
+.bar:hover{
+    position: absolute;
+    top: 2px;
+}
+.choice img:hover{
+    position: absolute;
+    opacity: 0.7;
+}
+
+/*Responsive-----*/
+
+@media screen and (max-width: 1540px){
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 1100px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 1200px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1300px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #top{
+        position: fixed;
+        z-index: 3;
+        width: 1600px;
+        height: 100px;
+        top: 0px;
+        border: 4px solid #0e0f1b ;
+        
+    }
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 1050px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 1150px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1250px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 900px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 1000px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1100px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 800px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 900px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 1000px;
+    }
+    .gannn{
+        position: absolute;
+        z-index: 2;
+        top: 370px;
+        left: 215px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+    }
+    .G{
+        position: absolute;
+        z-index: 2;
+        top: 410px;
+        left: 690px;
+        color: rgb(181, 181, 192);
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 700px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 900px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 600px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 700px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+    .agents{
+        position: absolute;
+        z-index: 2;
+        top: 150px;
+        left: 50px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+    }
+    .A{
+        position: absolute;
+        z-index: 2;
+        top: 190px;
+        left: 600px;
+        color: rgb(181, 181, 192);
+        font-size: 60px;
+    }
+    .gannn{
+        position: absolute;
+        z-index: 2;
+        top: 370px;
+        left: 100px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+    }
+    .G{
+        position: absolute;
+        z-index: 2;
+        top: 410px;
+        left: 600px;
+        color: rgb(181, 181, 192);
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 600px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 700px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 800px;
+    }
+    .agents{
+        position: absolute;
+        z-index: 2;
+        top: 150px;
+        left: 70px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+    }
+    .A{
+        position: absolute;
+        z-index: 2;
+        top: 190px;
+        left: 620px;
+        color: rgb(181, 181, 192);
+        font-size: 60px;
+    }
+    .gannn{
+        position: absolute;
+        z-index: 2;
+        top: 370px;
+        left: 70px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+    }
+    .G{
+        position: absolute;
+        z-index: 2;
+        top: 410px;
+        left: 550px;
+        color: rgb(181, 181, 192);
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 500px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 600px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 700px;
+    }
+    .agents{
+        position: absolute;
+        z-index: 2;
+        top: 150px;
+        left: 70px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+        height: 130px;
+        width: 700px;
+    }
+    .A{
+        position: absolute;
+        z-index: 2;
+        top: 190px;
+        left: 550px;
+        color: rgb(181, 181, 192);
+        font-size: 50px;
+    }
+    .gannn{
+        position: absolute;
+        z-index: 2;
+        top: 370px;
+        left: 70px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+        height: 130px;
+        width: 700px;
+    }
+    .G{
+        position: absolute;
+        z-index: 2;
+        top: 410px;
+        left: 500px;
+        color: rgb(181, 181, 192);
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 400px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 500px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 600px;
+    }
+    .agents{
+        position: absolute;
+        z-index: 2;
+        top: 150px;
+        left: 70px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+        height: 110px;
+        width: 600px;
+    }
+    .A{
+        position: absolute;
+        z-index: 2;
+        top: 180px;
+        left: 500px;
+        color: rgb(181, 181, 192);
+        font-size: 40px;
+    }
+    .gannn{
+        position: absolute;
+        z-index: 2;
+        top: 370px;
+        left: 70px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+        height: 110px;
+        width: 600px;
+    }
+    .G{
+        position: absolute;
+        z-index: 2;
+        top: 400px;
+        left: 450px;
+        color: rgb(181, 181, 192);
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 350px;
+        top: 25px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+    }
+    .about{
+        position: fixed;
+        top: 35px;
+        left: 450px;
+    }
+    .contact{
+        position: fixed;
+        top: 35px;
+        left: 550px;
+    }
+    .agents{
+        position: absolute;
+        z-index: 2;
+        top: 150px;
+        left: 70px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+        height: 110px;
+        width: 600px;
+    }
+    .A{
+        position: absolute;
+        z-index: 2;
+        top: 180px;
+        left: 500px;
+        color: rgb(181, 181, 192);
+        font-size: 40px;
+    }
+    .gannn{
+        position: absolute;
+        z-index: 2;
+        top: 370px;
+        left: 70px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+        height: 110px;
+        width: 600px;
+    }
+    .G{
+        position: absolute;
+        z-index: 2;
+        top: 400px;
+        left: 450px;
+        color: rgb(181, 181, 192);
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home{
+        position: fixed;
+        color: #101722;
+        left: 300px;
+        top: 30px;
+        padding: 10px;
+        background-color: rgb(181, 181, 192);
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .about{
+        position: fixed;
+        top: 40px;
+        left: 400px;
+        font-size: 20px;
+    }
+    .contact{
+        position: fixed;
+        top: 40px;
+        left: 500px;
+        font-size: 20px;
+    }
+    #user{
+        position: fixed;
+        font-size: 20px;
+        z-index: 4;
+        border-radius: 25px;
+        color: rgb(181, 181, 192);
+        width: 200px;
+        height: 35px;
+        text-align: center;
+        top: 35px;
+        left: 30px;
+    }
+    .agents{
+        position: absolute;
+        z-index: 2;
+        top: 150px;
+        left: 70px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+        height: 100px;
+        width: 500px;
+    }
+    .A{
+        position: absolute;
+        z-index: 2;
+        top: 180px;
+        left: 400px;
+        color: rgb(181, 181, 192);
+        font-size: 40px;
+    }
+    .gannn{
+        position: absolute;
+        z-index: 2;
+        top: 370px;
+        left: 70px;
+        border: 2px solid #0e0f1b ;
+        box-shadow: 3px 3px 7px black;
+        height: 100px;
+        width: 500px;
+    }
+    .G{
+        position: absolute;
+        z-index: 2;
+        top: 400px;
+        left: 350px;
+        color: rgb(181, 181, 192);
+        font-size: 40px;
+    }
+}
